@@ -14,7 +14,8 @@
     "reformat": "prettier --write './**/*.{ts,json,js}'",
     "tslint-check": "tslint-config-prettier-check ./tslint.json",
     "ts-check": "tsc -p . --noEmit",
-    "lint": "tslint --exclude './**/node_modules/**/*.ts' './**/*.ts'"
+    "lint": "tslint --exclude './**/node_modules/**/*.ts' './**/*.ts'",
+    "start": "ts-node app.ts"
   },
   "lint-staged": {
     "*.ts": [
