@@ -7,13 +7,7 @@
   "author": "Simon Beaulieu <s.beaulie2@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "husky": "^2.2.0",
-    "lint-staged": "^8.1.6",
-    "prettier": "^1.17.0",
     "ts-node": "^8.1.0",
-    "tslint": "^5.16.0",
-    "tslint-config-airbnb": "^5.11.1",
-    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.4.5"
   },
   "scripts": {
@@ -38,5 +32,13 @@
       "pre-commit": "lint-staged",
       "pre-push": "yarn ts-check"
     }
+  },
+  "devDependencies": {
+    "husky": "^2.2.0",
+    "lint-staged": "^8.1.6",
+    "prettier": "^1.17.0",
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0"
   }
 }
