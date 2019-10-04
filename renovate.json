@@ -1,0 +1,9 @@
+{
+	"automerge": true,
+	"separateMultipleMajor": true,
+	"major": {
+		"automerge": false,
+	}
+	"prHourlyLimit": 0,
+	"rebaseStalePrs": true
+}
