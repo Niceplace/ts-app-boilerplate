@@ -1,9 +1,11 @@
 {
-	"automerge": true,
-	"separateMultipleMajor": true,
-	"major": {
-		"automerge": false
-	},
-	"prHourlyLimit": 0,
-	"rebaseStalePrs": true
+  "automerge": true,
+  "enabledManagers": ["npm"],
+  "lockFileMaintenance": { "enabled": true },
+  "major": {
+    "automerge": false
+  },
+  "prHourlyLimit": 0,
+  "rebaseStalePrs": true,
+  "separateMultipleMajor": true
 }
