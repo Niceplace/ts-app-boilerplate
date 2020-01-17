@@ -1,7 +1,10 @@
 {
   "automerge": true,
   "enabledManagers": ["npm"],
-  "lockFileMaintenance": { "enabled": true },
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["at any time"]
+  },
   "major": {
     "automerge": false
   },
