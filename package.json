@@ -12,14 +12,13 @@
   },
   "scripts": {
     "reformat": "prettier --write './**/*.{ts,json,js}'",
-    "tslint-check": "tslint-config-prettier-check ./tslint.json",
     "ts-check": "tsc -p . --noEmit",
-    "lint": "tslint --exclude './**/node_modules/**/*.ts' './**/*.ts'",
+    "lint": "eslint . --ext .ts,.tsx",
     "start": "ts-node app.ts"
   },
   "lint-staged": {
     "*.ts": [
-      "tslint --fix",
+      "eslint --fix",
       "prettier --write",
       "git add"
     ],
@@ -35,11 +34,10 @@
     }
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
     "husky": "^4.0.0",
     "lint-staged": "^9.0.0",
-    "prettier": "^1.17.0",
-    "tslint": "^5.16.0",
-    "tslint-config-airbnb": "^5.11.1",
-    "tslint-config-prettier": "^1.18.0"
+    "prettier": "^1.17.0"
   }
 }
