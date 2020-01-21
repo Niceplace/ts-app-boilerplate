@@ -3,6 +3,7 @@
   "enabledManagers": ["npm"],
   "lockFileMaintenance": {
     "enabled": true,
+    "automerge": true,
     "schedule": ["at any time"]
   },
   "major": {
