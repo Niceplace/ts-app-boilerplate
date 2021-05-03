@@ -1,6 +1,6 @@
 {
   "automerge": true,
-  "enabledManagers": ["yarn"],
+  "enabledManagers": ["npm"],
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
