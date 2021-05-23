@@ -7,7 +7,7 @@
   "author": "Simon Beaulieu <s.beaulie2@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ts-node": "^9.0.0",
+    "ts-node": "^10.0.0",
     "typescript": "^4.0.0"
   },
   "scripts": {
